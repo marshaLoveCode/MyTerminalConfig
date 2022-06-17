@@ -1,0 +1,57 @@
+# Created By Himath Mandul
+# Make Sure To Subscribe My Youtube Channel - https://www.youtube.com/channel/UCzQhQCYhl-fQaPYcwyjs-Pw/
+add_newline = true
+[python]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[line_break]
+disabled = false
+
+[character]                        
+success_symbol = "[](14)"
+error_symbol = "[ ](162)"
+
+[hostname]
+ssh_only = false
+format =  "[ on](197)[  $hostname](51) "
+disabled = false
+
+
+[username]
+format = "[ $user](141)"
+disabled = false
+show_always = true
+
+[directory]
+truncation_length = 3
+truncation_symbol = " …/"
+home_symbol = " ~"
+format = "at [$path]($style) "
+style = "42"
+
+[cmd_duration]
+min_time = 500
+format = "[羽went $duration ](81)"
+
+[git_branch]
+symbol = " "
+format = "[on $symbol$branch ](202)"
+truncation_length = "4"
+truncation_symbol = " …/"
+
+[git_status]
+format = '[$all_status$ahead_behind]($style)'
+conflicted = " Conflicted"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+up_to_date = " "
+modified = " "
+stashed = " "
+untracked = ""
+renamed = "襁"
+deleted = ""
+staged = ""
