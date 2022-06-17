@@ -39,7 +39,7 @@ format = "[羽went $duration ](81)"
 [git_branch]
 symbol = " "
 format = "[on $symbol$branch ](202)"
-truncation_length = "4"
+truncation_length = 4
 truncation_symbol = " …/"
 
 [git_status]
